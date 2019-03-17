@@ -19,17 +19,6 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true }, (err, client) => {
         age: null
     }
 
-    console.log({...personSchema, name: 'Fieuline'})
-
-    db.collection('users').findOne({ 
-            ...personSchema,
-            name: 'Fieuline'
-        }).then(result => {
-            console.log(result);
-        }).catch(err => {
-            console.log(err);
-        });
-
     // const 
 
     // const CRUD = {
