@@ -1,0 +1,22 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "practice doing CRUD operations using Mongo Node Driver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisMayes22/mongodb-fiddle.git"
+  },
+  "author": "Chris Mayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisMayes22/mongodb-fiddle/issues"
+  },
+  "homepage": "https://github.com/ChrisMayes22/mongodb-fiddle#readme",
+  "dependencies": {
+    "mongodb": "^3.1.13"
+  }
+}
