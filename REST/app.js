@@ -11,9 +11,13 @@ app.use(bodyParser.urlencoded( { extended: true }));
 app.use(bodyParser.json());
 app.use(userRouter);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT
 
-app.listen(PORT);
+console.log('PORT', process.env.PORT);
+
+if(process.env.NODE_ENV !== 'test'){
+    app.listen(PORT);
+}
 
 console.log(`Listening at ${PORT}`);
 
